@@ -80,7 +80,7 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-8 lg:gap-20 mb-8 md:mb-12">
             {/* Social links */}
             <div className="text-center">
-              <h2 className="h2 mb-4">Social Links</h2>
+              <h2 className="h2 mb-4">Follow Us on Social Media Links</h2>
               <hr className="mb-4 w-1/2 mx-auto" />
               <ul className="flex justify-center space-x-4">
                 
