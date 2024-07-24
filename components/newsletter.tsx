@@ -1,3 +1,4 @@
+'use client'
 export default function Newsletter() {
   return (
     <section>
@@ -21,11 +22,11 @@ export default function Newsletter() {
 
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
 
-            {/* CTA content */}
+            {/* CTA content 
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
               <h3 className="h3 text-white mb-2">Stay in the loop</h3>
               <p className="text-purple-200 text-lg">Join our newsletter to get top news before anyone else.</p>
-            </div>
+            </div> */}
 
             {/* CTA form */}
             <form className="w-full lg:w-1/2">

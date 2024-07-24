@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 
 import FeatImage01 from '@/public/images/features-03-image-01.png'

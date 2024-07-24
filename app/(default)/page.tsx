@@ -1,5 +1,6 @@
+
 export const metadata = {
-  title: 'Home - Open PRO',
+  title: 'IndusConnect',
   description: 'Page description',
 }
 
@@ -8,15 +9,19 @@ import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
+import Team1 from '@/components/team'
+import TeamPred from '@/components/teamPresident'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Features />
-      <Zigzag />
-      <Testimonials />
-      <Newsletter />
+      
+      <TeamPred />
+      {/*<Zigzag /> */}
+      <Testimonials /> 
+      {/*<Newsletter /> */}
     </>
   )
 }

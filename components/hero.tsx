@@ -1,5 +1,5 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo from '@/components/modal-video'
+'use client'
+
 
 export default function Hero() {
   return (
@@ -20,31 +20,22 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="text-center py-8">
+        
+          <p className="mt-4 text-xl text-red-300 pt-8">
+            Announcement!!  Registration for Secretaries are open. <a href="https://forms.gle/hUUp1ZHLceR7Uyfn8" className="text-blue-500 underline">Register Here</a>
+          </p>
+        
+        
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-              </div>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8 pt-8">
+          <h1 className="h1 mb-4 md:text-6xl text-6xl" data-aos="fade-up" >Indus-Connect</h1>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Are you looking for opportunities to connect with industry experts? Want to gain hands-on experience in real-world projects? Introducing the Icon (Indus Connect) Club! We recognize the significant gap between theoretical learning in college and the practical industry skills that students need. To address this, we ensure to provide real-world project experiences and exposure to corporate environments, which are essential for enhancing student employability. Our club is dedicated to bridging this gap, ensuring that our members are well-prepared for the competitive job market and the challenges they will face in their future careers.
+
+These unique aspects set us apart, guaranteeing that our members gain crucial experience and skills that are vital for their future success. Join the Icon (Indus Connect Club) and be a part of this transformative journey!
+</p>
             </div>
-          </div>
-
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} />
-
         </div>
 
       </div>
