@@ -1,7 +1,8 @@
 'use client'
 import Image from 'next/image'
 
-import Rohit from '../public/next/images/Rohit.jpg'
+import Rohit from '../public/next/images/Rohit.png'
+import Soham from '../public/next/images/Soham.jpg'
 
 
 export default function Testimonials() {
@@ -40,7 +41,7 @@ export default function Testimonials() {
             {/* 2nd testimonial */}
             <div className="flex flex-col  h-full p-3 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
             <div className="IMG mb-4 mx-auto">
-                <Image src={Rohit} alt="rohit" className="w-23 h-auto"/>
+                <Image src={Soham} alt="soham" className="w-23 h-auto"/>
               </div>
               <div className="text-gray-700 text-center font-medium mt-6 pt-5 border-t border-gray-700 mx-auto">
                 <cite className="text-gray-200 not-italic text-3xl ">Soham Raskar (TY ENTC)</cite> <br></br>- <a className="text-purple-600 text-2xl hover:text-gray-200 transition duration-150 ease-in-out" href="#0"> Vice President</a>

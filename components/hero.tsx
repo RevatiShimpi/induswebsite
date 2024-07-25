@@ -31,9 +31,11 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8 pt-8">
           <h1 className="h1 mb-4 md:text-6xl text-6xl" data-aos="fade-up" >Indus-Connect</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Are you looking for opportunities to connect with industry experts? Want to gain hands-on experience in real-world projects? Introducing the Icon (Indus Connect) Club! We recognize the significant gap between theoretical learning in college and the practical industry skills that students need. To address this, we ensure to provide real-world project experiences and exposure to corporate environments, which are essential for enhancing student employability. Our club is dedicated to bridging this gap, ensuring that our members are well-prepared for the competitive job market and the challenges they will face in their future careers.
+            <p className="text-xl text-gray-400 " text-indent="20px" margin-botton="10px" data-aos="fade-up" data-aos-delay="200">Are you looking for opportunities to connect with industry experts? Want to gain hands-on experience in real-world projects? Introducing the Icon (Indus Connect) Club! We recognize the significant gap between theoretical learning in college and the practical industry skills that students need. To address this, we ensure to provide real-world project experiences and exposure to corporate environments, which are essential for enhancing student employability. Our club is dedicated to bridging this gap, ensuring that our members are well-prepared for the competitive job market and the challenges they will face in their future careers.
+
 
 These unique aspects set us apart, guaranteeing that our members gain crucial experience and skills that are vital for their future success. Join the Icon (Indus Connect Club) and be a part of this transformative journey!
+
 </p>
             </div>
         </div>
