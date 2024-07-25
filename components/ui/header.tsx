@@ -14,7 +14,7 @@ export default function Header() {
             <Image src={logo} alt="LOGO" width={90} height={90} className="object-left-top" />
           </div>
 
-          <MobileMenu />
+          {/*<MobileMenu />*/}
 
         </div>
       </div>
